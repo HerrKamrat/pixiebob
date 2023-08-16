@@ -1,0 +1,36 @@
+{
+  "name": "pixiebob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docs/js/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerrKamrat/pixiebob.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HerrKamrat/pixiebob/issues"
+  },
+  "homepage": "https://github.com/HerrKamrat/pixiebob#readme",
+  "devDependencies": {
+    "babylonjs": "^5.0.0-rc.13",
+    "babylonjs-gui": "^5.0.0-rc.13",
+    "babylonjs-loaders": "^5.0.0-rc.13",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+  }
+}
