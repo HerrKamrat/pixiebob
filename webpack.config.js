@@ -23,5 +23,16 @@ module.exports = {
           exclude: /node_modules/
       }]
   },
+  devServer: {
+    static: {
+      directory: path.resolve(__dirname, 'docs'),
+    },
+    compress: false,
+    port: 9000,
+    hot: true,
+    devMiddleware: {
+        publicPath: "/",
+    }
+  },
   mode: 'development'
 }
